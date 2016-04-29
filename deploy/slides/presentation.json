@@ -1,0 +1,57 @@
+{
+  "title": "Docker on PCF Workshop",
+  "options":
+  {
+    "slideNumber": true,
+    "enableAudio": false
+  },
+  "slides": [
+    "title.md",
+    "toc/toc_containers.md",
+    [
+      "containers/containers.md",
+      "containers/container-evolution.md",
+      "containers/container-benefits.md",
+      "containers/platform-as-a-service.md",
+      "containers/image-platform-as-a-service.md",
+      "containers/minimum-viable-platform.md",
+      "containers/image-opinionated-vs-unopinionated.md",
+      "containers/lxc-containers.md"
+    ],
+    "toc/toc_docker.md",
+    [
+      "docker-intro/docker-introduction.md",
+      "docker-intro/docker-history.md",
+      "docker-intro/what-is-docker.md",
+      "docker-intro/installing-docker.md",
+      "docker-intro/docker-machine.md",
+      "docker-intro/docker-test.md",
+      "docker-intro/useful-docker-commands.md",
+      "docker-intro/running-docker-container.md",
+      "docker-intro/mounting-docker-volumes.md",
+      "docker-intro/docker-images.md",
+      "docker-intro/working-with-docker-images.md",
+      "docker-intro/building-docker-images.md",
+      "docker-intro/docker-registry.md"
+    ],
+    "toc/toc_docker-pcf.md",
+    [
+      "docker-pcf/docker-support-in-pcf.md",
+      "docker-pcf/diego-and-docker-images.md",
+      "docker-pcf/enable-docker-support-in-diego.md",
+      "docker-pcf/running-docker-images.md",
+      "docker-pcf/docker-limitations.md"
+    ],
+    "toc/toc_examples.md",
+    [
+      "docker-examples/docker-examples.md",
+      "docker-examples/docker-example-go.md",
+      "docker-examples/docker-example-php.md",
+      "docker-examples/docker-example-java.md",
+      "docker-examples/docker-example-tomcat.md",
+      "docker-examples/docker-example-spring-boot.md"
+    ],
+    "questions.md",
+    "contact.md"
+  ]
+}

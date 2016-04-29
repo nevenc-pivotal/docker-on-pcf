@@ -1,0 +1,7 @@
+---
+applications:
+- name: docker-on-pcf
+  memory: 256M
+  instances: 1
+  path: deploy
+  buildpack: staticfile_buildpack
